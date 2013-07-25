@@ -84,15 +84,18 @@ ul {
     margin:20px 0px 0px 220px;
 }
 
-#dialogWrapper{
-	position:fixed;
-	width:100%;
-    z-index:1;
-	background:url(../img/background.jpg);
-	opacity:0.5;
-}
+
 
 /*--------<DialogBox>----------*/
+
+#dialogWrapper{
+    position:fixed;
+    width:100%;
+    z-index:1;
+    background:url(../img/background.png);
+
+}
+
 #dialogBox{
     background:#fff;
     width:430px;
@@ -121,7 +124,7 @@ ul {
 }
 
 #dialogBox, #dialogBox button{
-    font-family: Helvetica/*Lucida Handwriting;*/
+    font-family: Helvetica;
 }
 
 #dialogBox button:hover{
