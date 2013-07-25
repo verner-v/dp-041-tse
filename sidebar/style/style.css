@@ -1,0 +1,66 @@
+.sidebar-wrapper {
+    margin-top: 200px;
+    position: fixed;
+}
+.sidebar {
+    border: 1px solid #565656;
+    border-radius: 4px;
+    width: 150px;
+    cursor: pointer;
+    background: #565656;
+    opacity: 0.5;
+    padding: 0 5px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0px;
+    color: #ebebeb;
+    text-shadow: 1px 1px 1px #000;
+    border-bottom: 1px solid #c2bbb0;
+    border-top: 1px solid #323232;
+    background-image:  url(../images/hover.png);
+}
+
+.sidebar :last-child{
+    border-bottom: none;
+}
+
+.sidebar :first-child{
+    border-top: none;
+}
+
+.half-circle-top{
+    margin: 0 65px;
+    background: #565656;
+    opacity: 0.5;
+    height: 16px;
+    width: 35px;
+    -moz-border-radius: 140px 140px 0 0;
+    -webkit-border-radius: 140px 140px 0 0;
+    border-radius: 140px 140px 0 0;
+}
+
+.half-circle-down{
+    margin: 0 65px;
+    background: #565656;
+    opacity: 0.5;
+    height: 16px;
+    width: 35px;
+    -moz-border-radius: 0 0 140px 140px;
+    -webkit-border-radius: 0 0 140px 140px;
+    border-radius: 0 0 140px 140px;
+}
+
+
+.sidebar ul li:hover {
+    background-image:  url("../images/hover.png");
+    color: red;
+    background-color: #000;
+}
