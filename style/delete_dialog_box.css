@@ -125,6 +125,6 @@ ul {
 }
 
 #dialogBox button:hover{
-    background-image: url(img/cloud2.png);
+    background-image: url(../img/cloud2.png);
 }
 /*--------</DialogBox>----------*/
