@@ -1,0 +1,38 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family:Helvetica;
+    cursor:default;
+}
+
+body {
+    background: url(../img/background.jpg);
+}
+
+ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.wrapper {
+    width:70%;
+    margin:20px auto;
+    min-width:700px;
+    max-width:1200px;
+}
+
+.header {
+    text-align:center;
+}
+
+.sideBar {
+    margin-top:200px;
+    float:left;
+    width:200px;
+    position:fixed;
+}
+
+.content {
+    margin:20px 0px 0px 220px;
+}
