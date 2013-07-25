@@ -1,0 +1,83 @@
+.sidebar-wrapper {
+    margin-top: 200px;/*should change a margin*/
+    position: fixed;
+}
+
+.sidebar {
+    border: 1px solid #565656;
+    border-radius: 4px;
+    width: 150px;
+    cursor: pointer;
+    background: #565656;
+    opacity: 0.5;
+    padding: 0 5px;
+    font-family: sans-serif;
+    color: #ebebeb;
+}
+
+a {
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0px;
+    text-shadow: 1px 1px 1px #000;
+    border-bottom: 1px solid #c2bbb0;
+    border-top: 1px solid #323232;
+}
+
+.sidebar :last-child{
+    border-bottom: none;
+}
+
+.sidebar :first-child{
+    border-top: none;
+}
+
+.half-circle-top{
+    margin: 0 65px;
+    background: #565656;
+    opacity: 0.5;
+    height: 16px;
+    width: 35px;
+    -moz-border-radius: 140px 140px 0 0;
+    -webkit-border-radius: 140px 140px 0 0;
+    border-radius: 140px 140px 0 0;
+}
+
+.half-circle-down{
+    margin: 0 65px;
+    background: #565656;
+    opacity: 0.5;
+    height: 16px;
+    width: 35px;
+    -moz-border-radius: 0 0 140px 140px;
+    -webkit-border-radius: 0 0 140px 140px;
+    border-radius: 0 0 140px 140px;
+}
+
+.sidebar ul li a:hover{
+    color: #ffffff;
+    /*background-image: url(/images/hover-sidebar.png);*/
+    margin: 0 auto;
+     opacity: 10;
+     text-shadow: 0 0 20px #ffffff;
+     color: #fff;
+     
+     filter:
+    progid:DXImageTransform.Microsoft.MotionBlur(strength=13, direction=310)
+    progid:DXImageTransform.Microsoft.Blur(pixelradius=2)
+    progid:DXImageTransform.Microsoft.Wheel(duration=3);
+      filter: progid:DXImageTransform.Microsoft.Glow(color=ff0000,strength=2);
+     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #4656cc, 0 0 30px #4656cc, 0 0 40px #4656cc, 0 0 50px #4656cc, 0 0 75px #4656cc;
+     letter-spacing: 5px;
+     
+    }
