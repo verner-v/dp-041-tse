@@ -1,0 +1,130 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family:Helvetica;
+    cursor:default;
+}
+
+body {
+    background: url(../img/background.jpg);
+}
+
+ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.wrapper {
+    width:70%;
+    margin:20px auto;
+    min-width:700px;
+    max-width:1200px;
+}
+
+.header {
+    text-align:center;
+}
+
+.menu{
+    border-radius:5px;
+    min-width:400px;
+    height:30px;
+    margin: 0 auto;
+    font-weight:bold;
+    font-size:0;
+    /*убирает отступы, создаваемые браузером для inline-block*/ 
+}
+.menu a {
+    text-decoration:none;
+	color: #fff;
+} 
+
+.menu div{
+    display:inline-block;
+    position:relative;
+    background-color:#000;
+	width:25%;
+    height:25px;
+    padding-top:5px;
+    list-style:none;
+    text-align:center;
+    font-size:12px;
+}
+
+/*-- подменю --*/
+.menu div ul{  
+    position:absolute;
+    display:none;
+    width:100%;
+    top:30px;
+}  
+
+.menu ul li{
+    background-color:#2E2E2E;
+    padding:5px 0px;
+}
+
+.menu div:hover, .menu div li:hover{
+    background:#04B4AE;
+}
+
+.menu div:hover ul{
+    display:block;
+}
+
+.sideBar {
+    margin-top:200px;
+    float:left;
+    width:200px;
+    position:fixed;
+}
+
+.content {
+    margin:20px 0px 0px 220px;
+}
+
+#dialogWrapper{
+	position:fixed;
+	width:100%;
+    z-index:1;
+	background:url(../img/background.jpg);
+	opacity:0.5;
+}
+
+/*--------<DialogBox>----------*/
+#dialogBox{
+    background:#fff;
+    width:430px;
+    border:2px solid #000;
+    text-align:center;
+    border-radius:10px;
+    font-size:20px;
+    padding-top:60px;
+    margin:15% auto;
+}
+
+#dialogBox p{
+    margin:0;
+    padding:0;
+}
+
+#dialogBox button{
+    margin:30px 0px 10px 0px;
+    border:none;
+    width:200px;
+    height:50px;
+    cursor:pointer;
+    font-size:20px;
+    background:none;
+    padding-top:5px;
+}
+
+#dialogBox, #dialogBox button{
+    font-family: Helvetica/*Lucida Handwriting;*/
+}
+
+#dialogBox button:hover{
+    background-image: url(img/cloud2.png);
+}
+/*--------</DialogBox>----------*/
