@@ -83,3 +83,10 @@ ul {
 .content {
     margin:20px 0px 0px 220px;
 }
+
+/*Icon Gallery*/
+.iconGallery img {
+    width:150px;  /* Image resize */
+    padding:5px 5px 0px 0px;
+}
+/*Icon gallery end*/
